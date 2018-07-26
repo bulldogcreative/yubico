@@ -1,0 +1,20 @@
+{
+    "name": "bulldog/yubico",
+    "description": "PHP Package for Yubico authentication",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Levi Durfee",
+            "email": "ldurfee@bulldogcreative.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bulldog\\Yubico\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
